@@ -3,8 +3,9 @@
 ## Mock framework for Python 2.x and 3.x, which has taken influence from jMock.
 
 ### Installing
-Download latest version from Downloads and extract the file. Run sudo setup.py install.
-
+```
+pip install yamf
+```
 
 Best way to see the usage is to see the test code test_yamf.py
 
