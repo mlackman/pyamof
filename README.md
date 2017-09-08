@@ -1,4 +1,4 @@
-
+https://travis-ci.org/mlackman/pyamof.svg?branch=master
 
 ## Mock framework for Python 2.x and 3.x, which has taken influence from jMock.
 
@@ -71,7 +71,7 @@ m.doSomething.mustBeCalled.once.returns(5)
 ### Executing
 To execute something when mock method is called:
 ```
-def method(a,b): 
+def method(a,b):
     #Do something. Note that the method return value is not given to caller
 
 m.doSomething.execute(method) # execute takes callable
@@ -82,7 +82,7 @@ To find out certain call's arguments:
 
 ```
 #Somewhere mock gets called like
-m.doSomething(1,k=2) 
+m.doSomething(1,k=2)
 m.doSomething(5,k=6)
 
 # calls will be [((1),{'k':2}), (5,{'k':6})]
@@ -95,10 +95,10 @@ To handle situation where there are array of mocks:
 ```
 mocks = MockArray(4)
 mocks.method.mustBeCalled.times(2)
-     
-for mock in mocks: mock.method() 
-for mock in mocks: mock.method() 
-        
+
+for mock in mocks: mock.method()
+for mock in mocks: mock.method()
+
 mocks.verify()
 ````
 
