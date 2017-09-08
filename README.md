@@ -1,4 +1,4 @@
-![Travis](![GitHub Logo](/images/logo.png))
+![Travis](https://travis-ci.org/mlackman/pyamof.svg?branch=master)
 
 ## Mock framework for Python 2.x and 3.x, which has taken influence from jMock.
 
